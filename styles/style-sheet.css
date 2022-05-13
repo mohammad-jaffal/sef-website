@@ -220,7 +220,7 @@ td {
 .part-4 {
     width: 100%;
     background-color: rgba(37, 226, 0, 255);
-    vertical-align: middle;
+    /* vertical-align: middle; */
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -269,3 +269,87 @@ td {
     width: 60%;
     height: auto;
 }
+
+
+.part-6 {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.part-6-1 {
+    text-align: center;
+    padding-left: 22%;
+    padding-right: 22%;
+    font-size: 40px;
+    font-family: DejaVu Sans Mono, monospace;
+    margin-bottom: 30px;
+
+}
+
+.part-6-2 {
+    
+    text-align: center;
+    font-size: 25px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: DejaVu Sans Mono, monospace;
+
+}
+
+
+.part-6-image {
+    width: 85%;
+    margin-top: 20px;
+
+}
+
+.part-7 {
+    width: 100%;
+    text-align: center;
+}
+
+.part-7-image{
+    
+    margin-top: 20px;
+    width: 55%;
+}
+
+
+
+.part-8 {
+    padding-top: 50px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: rgba(230,230,230,255);
+}
+
+.part-8-title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: DejaVu Sans Mono, monospace;
+    margin-bottom: 40px;
+
+}
+
+
+.part-8-list-container {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.part-8-icon {
+    width: 20%;
+    height: auto;
+    margin-bottom: 30px;
+    
+}
+
+
