@@ -1,0 +1,121 @@
+
+.banner-container {
+    margin: -1%;
+
+}
+
+.banner-image {
+    /* margin-left: 0px; */
+    width: 100%;
+}
+
+.top-left-icon{
+    /* position: absolute; */
+    width: 80px;
+    height: 80px;
+    top: 3%;
+    left: 0px;
+}
+
+
+.tl-icon-container{
+    margin-left: 7%;
+    align-items: flex-start;
+}
+
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+    flex-wrap: wrap;
+    position: absolute;
+    /* width: 100%; */
+    top: 3%;
+    /* padding: 60px; */
+    font-size: 30px;
+    right: 0;
+}
+
+/* .menu {
+    display: flex;
+    
+    align-items: flex-end;
+} */
+
+
+.spacer {
+    flex-grow: 1;
+    /* background-color: blue; */
+}
+
+.header-menu-item{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.hmi-container{
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+td{
+    width: 100px;
+}
+
+.text-button{
+    font-size: 16px;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    background-color: rgba(37,226,0,255);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+.banner-left-data-container {
+    width: 50%;
+    height: auto;
+    /* align-items: flex-end; */
+    flex-wrap: wrap;
+    position: absolute;
+    /* width: 100%; */
+    top: 40%;
+    /* padding: 60px; */
+    font-size: 30px;
+    left: 7%;
+
+}
+
+.banner-title-1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+}
+.banner-title-2 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+}
+
+.banner-info {
+    
+    font-size: 30px;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+
+}
