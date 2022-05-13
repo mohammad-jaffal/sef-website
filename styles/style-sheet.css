@@ -129,6 +129,7 @@ td {
 .stats-left {
     display: inline-block;
     width: 40%;
+    vertical-align: top;
 }
 
 .stats-mid {
@@ -214,4 +215,57 @@ td {
     margin-left: 25px;
     font-family: DejaVu Sans Mono, monospace;
     
+}
+
+.part-4 {
+    width: 100%;
+    background-color: rgba(37, 226, 0, 255);
+    vertical-align: middle;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.part-4-title-1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+}
+
+.part-4-title-2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+}
+
+.part-4-image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.part-4-image-1-container {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    text-align: right;
+}
+
+.part-4-image-2-container {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    text-align: left;
+}
+
+.p4im1 {
+    width: 60%;
+    height: auto;
+}
+
+.p4im2 {
+
+    width: 60%;
+    height: auto;
 }
