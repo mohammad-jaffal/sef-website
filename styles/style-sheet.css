@@ -53,7 +53,7 @@
     font-size: 18px;
     font-weight: bold;
     color: white;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
@@ -73,7 +73,7 @@ td {
 .text-button {
     font-size: 16px;
     color: white;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
@@ -99,16 +99,15 @@ td {
 }
 
 .banner-title-1 {
-    font-size: 80px;
+    font-size: 75px;
     font-weight: bold;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     color: white;
 }
 
 .banner-title-2 {
-    font-size: 60px;
-    font-weight: bold;
-    font-family: DejaVu Sans Mono, monospace;
+    font-size: 75px;
+    font-family: sans-serif;
     color: white;
 }
 
@@ -116,7 +115,7 @@ td {
 
     font-size: 30px;
     color: white;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
 
 }
 
@@ -148,7 +147,7 @@ td {
     font-size: 80px;
     color: rgba(37, 226, 0, 255);
     text-align: center;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     font-weight: bold;
     
 }
@@ -157,7 +156,7 @@ td {
     font-size: 26px;
     text-align: center;
     font-weight: bold;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
 
 }
 
@@ -187,21 +186,20 @@ td {
 .part-3-title-1 {
     font-size: 60px;
     text-align: start;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     
 }
 .part-3-title-2 {
     font-size: 60px;
     text-align: start;
     font-weight: bold;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
 }
 
 .part-3-data {
-    font-size: 25px;
+    font-size: 30px;
     text-align: start;
-    font-weight: bold;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     /* width: 10%; */
     margin-top: 50px;
     margin-left: 25px;
@@ -213,7 +211,7 @@ td {
     color: rgba(37, 226, 0, 255);
     font-size: 25px;
     margin-left: 25px;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     
 }
 
@@ -228,7 +226,7 @@ td {
 .part-4-title-1 {
     text-align: center;
     font-size: 60px;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     color: white;
 }
 
@@ -236,7 +234,7 @@ td {
     font-size: 60px;
     font-weight: bold;
     text-align: center;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     color: white;
 }
 
@@ -284,7 +282,7 @@ td {
     padding-left: 22%;
     padding-right: 22%;
     font-size: 40px;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     margin-bottom: 30px;
 
 }
@@ -295,7 +293,7 @@ td {
     font-size: 25px;
     padding-left: 1%;
     padding-right: 1%;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
 
 }
 
@@ -331,7 +329,7 @@ td {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     margin-bottom: 40px;
 
 }
@@ -366,7 +364,7 @@ td {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     margin-bottom: 40px;
     margin-top: 40px;
 
@@ -407,7 +405,7 @@ td {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     margin-bottom: 40px;
     margin-top: 40px;
 
@@ -417,7 +415,7 @@ td {
 .part-11-2 {
     font-size: 50px;
     text-align: center;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: sans-serif;
     margin-bottom: 40px;
     margin-top: 40px;
 
@@ -445,13 +443,15 @@ td {
 
 
 .footer-link {
+    font-family: sans-serif;
     color: rgba(37, 226, 0, 255);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer-crc {
-    font-size: 20px;
-    font-family: DejaVu Sans Mono, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
     color: white;
 
 }
