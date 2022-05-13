@@ -15,10 +15,19 @@ html,body
 
 .banner-container {
     /* margin: -1%; */
-    height: 100%;
     width: 100%;
-    background-image: url("../assets/images/banner.JPG");
-
+    height: 100%;
+    /* background-image: url("../assets/images/banner.JPG"); */
+    /* resize: horizontal; */
+    /* overflow: scroll; */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    display: table;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/banner.JPG');
+    background-position: center top;
+    color: white;
+      
 }
 
 
@@ -30,8 +39,9 @@ html,body
 
 .topnav {
     display: flex;
-    width: 100;
+    width: 100%;
     overflow: hidden;
+    /* margin-right: 10%; */
     /* background-color: rgb(17, 31, 31); */
   }
   
@@ -64,31 +74,53 @@ html,body
 
 
 .tl-icon-container {
-    margin-left: 7%;
+    margin-left: 0%;
+    width: 20%;
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 2%;
 }
 
 
 
 
 .menu {
-    display: flex;
+    padding-top: 2%;
+    /* flex-grow: 1; */
+    width: 900px;
     color: white;
-    align-items: flex-end;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
 }
 
 
 .spacer {
     flex-grow: 1;
-    background-color: blue;
 }
 
 .header-menu-item {
+    display: inline-block;
     font-size: 18px;
     font-weight: bold;
     font-family: sans-serif;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
+    margin-right: 3%;
+}
+
+.apply-button {
+    display: inline-block;
+    margin-top: 1%;
+    margin-right: 3%;
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(37, 226, 0, 255);
+    border-radius: 5px;
+    border-color: rgba(37, 226, 0, 255);
 }
 
 .hmi-container {
@@ -120,14 +152,11 @@ td {
 .banner-left-data-container {
     width: 50%;
     height: auto;
-    /* align-items: flex-end; */
-    flex-wrap: wrap;
-    position: absolute;
-    /* width: 100%; */
+    vertical-align: middle;
     top: 40%;
-    /* padding: 60px; */
     font-size: 30px;
-    left: 7%;
+    margin-left: 7%;
+    margin-top: 20%;
 
 }
 
@@ -463,6 +492,8 @@ td {
     background-color: black;
     border-radius: 5px;
 }
+
+
 
 .footer-part {
     padding-top: 40px;
