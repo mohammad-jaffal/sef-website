@@ -1,7 +1,55 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* body{
+    background-image: url("../assets/images/banner.JPG");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+} */
+
 .banner-container {
     /* margin: -1%; */
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/images/banner.JPG");
 
 }
+
+
+
+
+
+
+
+
+.topnav {
+    display: flex;
+    width: 100;
+    overflow: hidden;
+    /* background-color: rgb(17, 31, 31); */
+  }
+  
+  /* Style the links inside the navigation bar */
+  /* .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  } */
+  
+ 
+  
+
+  
 
 .banner-image {
     /* margin-left: 0px; */
@@ -12,47 +60,31 @@
     /* position: absolute; */
     width: 80px;
     height: 80px;
-    top: 3%;
-    left: 0px;
 }
 
 
 .tl-icon-container {
     margin-left: 7%;
-    align-items: flex-start;
 }
 
 
-.header {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    /* align-items: flex-end; */
-    flex-wrap: wrap;
-    position: absolute;
-    /* width: 100%; */
-    top: 3%;
-    /* padding: 60px; */
-    font-size: 30px;
-    right: 0;
-}
 
-/* .menu {
+
+.menu {
     display: flex;
-    
+    color: white;
     align-items: flex-end;
-} */
+}
 
 
 .spacer {
     flex-grow: 1;
-    /* background-color: blue; */
+    background-color: blue;
 }
 
 .header-menu-item {
     font-size: 18px;
     font-weight: bold;
-    color: white;
     font-family: sans-serif;
     white-space: nowrap;
     overflow: hidden;
@@ -60,6 +92,7 @@
 }
 
 .hmi-container {
+    color: white;
     text-align: center;
     display: inline-block;
     margin-left: 10px;
@@ -483,3 +516,31 @@ td {
     display: flex;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
