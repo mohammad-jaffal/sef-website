@@ -7,19 +7,10 @@ html,body
     overflow-x: hidden;
 }
 
-/* body{
-    background-image: url("../assets/images/banner.JPG");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-} */
 
 .banner-container {
-    /* margin: -1%; */
     width: 100%;
     height: 100%;
-    /* background-image: url("../assets/images/banner.JPG"); */
-    /* resize: horizontal; */
-    /* overflow: scroll; */
     background-size: cover;
     background-repeat: no-repeat;
    
@@ -31,9 +22,17 @@ html,body
 }
 
 
+.topnav-replace {
+    display: none;
+    width: 100%;
+    overflow: hidden;
+  }
 
-
-
+.icon-replace {
+    margin-right: 10%;
+    margin-top: 5%;
+      
+  }
 
 
 
@@ -41,33 +40,10 @@ html,body
     display: flex;
     width: 100%;
     overflow: hidden;
-    /* margin-right: 10%; */
-    /* background-color: rgb(17, 31, 31); */
   }
   
-  /* Style the links inside the navigation bar */
-  /* .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  } */
-  
- 
-  
-
-  
-
-.banner-image {
-    /* margin-left: 0px; */
-    width: 100%;
-}
 
 .top-left-icon {
-    /* position: absolute; */
     width: 80px;
     height: 80px;
 }
@@ -86,11 +62,9 @@ html,body
 
 .menu {
     padding-top: 2%;
-    /* flex-grow: 1; */
     width: 900px;
     color: white;
     justify-content: flex-end;
-    /* align-items: flex-end; */
 }
 
 
@@ -135,51 +109,43 @@ td {
     width: 100px;
 }
 
-.text-button {
-    font-size: 16px;
-    color: white;
-    font-family: sans-serif;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: clip;
-    background-color: rgba(37, 226, 0, 255);
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 5px;
-}
+
 
 .banner-left-data-container {
     width: 50%;
     height: auto;
     vertical-align: middle;
     top: 40%;
-    font-size: 30px;
     margin-left: 7%;
     margin-top: 20%;
 
 }
 
 .banner-title-1 {
-    font-size: 75px;
+    font-size: 5vmax;
     font-weight: bold;
     font-family: sans-serif;
     color: white;
 }
 
 .banner-title-2 {
-    font-size: 75px;
+    font-size: 4vmax;
     font-family: sans-serif;
     color: white;
 }
 
 .banner-info {
 
-    font-size: 30px;
+    font-size: 3vh;
     color: white;
     font-family: sans-serif;
 
 }
+
+
+
+
+
 
 .stats-container {
     margin-top: 5%;
@@ -206,7 +172,7 @@ td {
 }
 
 .stats {
-    font-size: 80px;
+    font-size: 5vmax;
     color: rgba(37, 226, 0, 255);
     text-align: center;
     font-family: sans-serif;
@@ -215,104 +181,102 @@ td {
 }
 
 .stats-info {
-    font-size: 26px;
+    font-size: 2vmax;
     text-align: center;
     font-weight: bold;
     font-family: sans-serif;
 
 }
 
-.part-3 {
+.img-with-para {
     width: 100%;
     margin: 5%;
 }
 
-.part-3-image-container {
+.img-with-para-image-container {
     display: inline-block;
     width: 50%;
     height: auto;
 }
 
-.part-3-image {
+.img-with-para-image {
     height: auto;
     width: 90%;
 }
 
-.part-3-data-container{
+.img-with-para-data-container{
     display: inline-block;
     vertical-align: top;
     width: 40%;
 
 }
 
-.part-3-title-1 {
-    font-size: 60px;
+.img-with-para-title-1 {
+    font-size: 4vmax;
     text-align: start;
     font-family: sans-serif;
     
 }
-.part-3-title-2 {
-    font-size: 60px;
+.img-with-para-title-2 {
+    font-size: 4vmax;
     text-align: start;
     font-weight: bold;
     font-family: sans-serif;
 }
 
-.part-3-data {
-    font-size: 30px;
+.img-with-para-data {
+    font-size: 3vh;
     text-align: start;
     font-family: sans-serif;
-    /* width: 10%; */
     margin-top: 50px;
     margin-left: 25px;
     margin-bottom: 30px;
 
 }
 
-.part-3-link {
+.img-with-para-link {
     color: rgba(37, 226, 0, 255);
-    font-size: 25px;
+    font-size: 2.5vh;
     margin-left: 25px;
     font-family: sans-serif;
     
 }
 
-.part-4 {
+.discover-part {
     width: 100%;
     background-color: rgba(37, 226, 0, 255);
-    /* vertical-align: middle; */
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.part-4-title-1 {
+.discover-part-title-1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 4vmax;
     font-family: sans-serif;
     color: white;
 }
 
-.part-4-title-2 {
-    font-size: 60px;
+.discover-part-title-2 {
+    font-size: 4vmax;
     font-weight: bold;
     text-align: center;
     font-family: sans-serif;
     color: white;
 }
 
-.part-4-image-container {
+.discover-part-image-container {
     width: 100%;
     text-align: center;
 }
 
-.part-4-image-1-container {
+.discover-part-image-1-container {
     display: inline-block;
     width: 45%;
     height: auto;
     text-align: right;
 }
 
-.part-4-image-2-container {
+.discover-part-image-2-container {
     display: inline-block;
     width: 45%;
     height: auto;
@@ -331,7 +295,7 @@ td {
 }
 
 
-.part-6 {
+.partner-network-part {
     height: auto;
     width: 100%;
     text-align: center;
@@ -339,20 +303,20 @@ td {
 
 }
 
-.part-6-1 {
+.partner-network-part-title-1 {
     text-align: center;
     padding-left: 22%;
     padding-right: 22%;
-    font-size: 40px;
+    font-size: 3vmax;
     font-family: sans-serif;
     margin-bottom: 30px;
 
 }
 
-.part-6-2 {
+.partner-network-part-title-2 {
     
     text-align: center;
-    font-size: 25px;
+    font-size: 2vmax;
     padding-left: 1%;
     padding-right: 1%;
     font-family: sans-serif;
@@ -360,7 +324,7 @@ td {
 }
 
 
-.part-6-image {
+.partner-network-part-image {
     width: 85%;
     margin-top: 20px;
 
@@ -379,7 +343,7 @@ td {
 
 
 
-.part-8 {
+.media-part {
     padding-top: 50px;
     text-align: center;
     height: auto;
@@ -387,8 +351,8 @@ td {
     background-color: rgba(230,230,230,255);
 }
 
-.part-8-title {
-    font-size: 8vw;
+.multi-title {
+    font-size: 5vh;
     font-weight: bold;
     text-align: center;
     font-family: sans-serif;
@@ -397,7 +361,7 @@ td {
 }
 
 
-.part-8-list-container {
+.multi-list-container {
     display: inline-block;
     width: 100%;
     height: auto;
@@ -405,7 +369,7 @@ td {
     padding-bottom: 30px;
 }
 
-.part-8-icon {
+.multi-icon {
     width: 20%;
     height: auto;
     margin-bottom: 30px;
@@ -413,7 +377,7 @@ td {
 }
 
 
-.part-9 {
+.funding-partners-part {
     
     padding-top: 50px;
     text-align: center;
@@ -421,7 +385,7 @@ td {
     width: 100%;
 }
 
-.part-9-title{
+.funding-partners-part-title{
     
     font-size: 50px;
     font-weight: bold;
@@ -433,20 +397,20 @@ td {
 }
 
 
-.part-9-image{
+.funding-partners-part-image{
     width: 80%;
     margin-top: 20px;
 }
 
 
-.part-10 {
+.strat-partners-part {
     padding-top: 50px;
     text-align: center;
     height: auto;
     width: 100%;
 }
 
-.part-10-icon {
+.strat-partners-part-icon {
     margin-top: 20px;
     width: 24%;
     height: auto;
@@ -454,7 +418,7 @@ td {
     
 }
 
-.part-11 {
+.sub-part {
     padding-top: 50px;
     text-align: center;
     height: auto;
@@ -463,7 +427,7 @@ td {
     padding-bottom: 100px;
 }
 
-.part-11-1 {
+.sub-part-title-1 {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
@@ -474,7 +438,7 @@ td {
 
 }
 
-.part-11-2 {
+.sub-part-title-2 {
     font-size: 50px;
     text-align: center;
     font-family: sans-serif;
@@ -500,7 +464,6 @@ td {
     width: 100%;
     display: inline-block;
     background-color: black;
-    /* height: 150px; */
     padding-bottom: 40px;
     vertical-align: middle;
 }
@@ -551,11 +514,73 @@ td {
 
 
 
+
+
+.gg-menu {
+    transform: scale(var(--ggs,2))
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+}
+.gg-menu::after,
+.gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px
+}
+.gg-menu::after {
+    top: 6px
+}
+
+
 /****************************************************************************************/
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+
+
+    .topnav {
+        display: none;
+      }
+
+
+      .topnav-replace {
+        display: flex;
+      }
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+@media (max-width: 900px) {
+
+
+
+
+    .top-left-icon{
+        width: 65px;
+        height: 65px;
+        margin-top: 20%;
+    }
+
 
 
 
@@ -581,76 +606,48 @@ td {
         margin-bottom: 8%;
     }
     .stats {
-        font-size: 40px;
         padding-bottom: 5%;
         
     }
-    .stats-info {
-        font-size: 22px;
-    }
 
 
 
-
-
-
-    .part-3 {
+    .img-with-para {
         width: 100%;
         margin-bottom: 70px;
     }
-    .part-3-image-container {
+    .img-with-para-image-container {
         width: 100%;
         height: auto;
         padding-bottom: 5%;
     }
-    .part-3-image {
+    .img-with-para-image {
         height: auto;
         width: 80%;
     }
-    .part-3-data-container{
+    .img-with-para-data-container{
         width: 100%;
     }
-    .part-3-title-1 {
-        font-size: 35px;
-    }
-    .part-3-title-2 {
-        font-size: 35px;
-    }
-    .part-3-data {
+    .img-with-para-data {
         width: 75%;
-        font-size: 23px;
     }
-    .part-3-link {
-        font-size: 18px;
-    }
-
-
-
-
-
-
-
-
 
 
 
     
-    .part-4-title-1 {
+    .discover-part-title-1 {
         text-align: center;
-        font-size: 35px;
     }
-    .part-4-title-2 {
-        font-size: 35px;
-    }
-    .part-4-image-container {
+    
+    .discover-part-image-container {
         width: 100%;
         text-align: center;
     }
-    .part-4-image-1-container {
+    .discover-part-image-1-container {
         width: 100%;
         text-align: center;
     }
-    .part-4-image-2-container {
+    .discover-part-image-2-container {
         width: 100%;
         text-align: center;
     }
@@ -671,14 +668,12 @@ td {
   
 
 
-    .part-6-1 {
+    .partner-network-part-title-1 {
         text-align: center;
-        font-size: 25px;
     }
-    .part-6-2 {
+    .partner-network-part-title-2 {
         margin-left: 5%;
         margin-right: 5%;
-        font-size: 20px;
     }
     
 
@@ -694,39 +689,12 @@ td {
 
     
 
-
-
-
-
-
     
-    .part-8-icon {
+    .multi-icon {
         width: 100%;
         height: auto;
         margin-bottom: 30px;  
     }
-
-
-
-
-
-
-
-    .part-10 {
-        padding-top: 50px;
-        text-align: center;
-        height: auto;
-        width: 100%;
-    }
-    
-    .part-10-icon {
-        margin-top: 20px;
-        width: 24%;
-        height: auto;
-        margin-bottom: 30px;
-        
-    }
-  
 }
 
 
