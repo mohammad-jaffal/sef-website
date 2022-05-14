@@ -388,7 +388,7 @@ td {
 }
 
 .part-8-title {
-    font-size: 50px;
+    font-size: 8vw;
     font-weight: bold;
     text-align: center;
     font-family: sans-serif;
@@ -551,7 +551,183 @@ td {
 
 
 
+/****************************************************************************************/
 
+
+
+@media (max-width: 800px) {
+
+
+
+
+
+    .stats-container {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .stats-left {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .stats-mid {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .stats-right {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .stats {
+        font-size: 40px;
+        padding-bottom: 5%;
+        
+    }
+    .stats-info {
+        font-size: 22px;
+    }
+
+
+
+
+
+
+    .part-3 {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .part-3-image-container {
+        width: 100%;
+        height: auto;
+        padding-bottom: 5%;
+    }
+    .part-3-image {
+        height: auto;
+        width: 80%;
+    }
+    .part-3-data-container{
+        width: 100%;
+    }
+    .part-3-title-1 {
+        font-size: 35px;
+    }
+    .part-3-title-2 {
+        font-size: 35px;
+    }
+    .part-3-data {
+        width: 75%;
+        font-size: 23px;
+    }
+    .part-3-link {
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+    .part-4-title-1 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .part-4-title-2 {
+        font-size: 35px;
+    }
+    .part-4-image-container {
+        width: 100%;
+        text-align: center;
+    }
+    .part-4-image-1-container {
+        width: 100%;
+        text-align: center;
+    }
+    .part-4-image-2-container {
+        width: 100%;
+        text-align: center;
+    }
+    .p4im1 {
+        padding-top: 35px;
+        width: 80%;
+    }
+    .p4im2 {
+        padding-top: 35px;
+        width: 80%;
+    }
+    
+
+
+
+
+
+  
+
+
+    .part-6-1 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .part-6-2 {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+    }
+    
+
+
+
+
+    
+    .part-7-image{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    
+
+
+
+
+
+
+    
+    .part-8-icon {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;  
+    }
+
+
+
+
+
+
+
+    .part-10 {
+        padding-top: 50px;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    
+    .part-10-icon {
+        margin-top: 20px;
+        width: 24%;
+        height: auto;
+        margin-bottom: 30px;
+        
+    }
+  
+}
 
 
 
